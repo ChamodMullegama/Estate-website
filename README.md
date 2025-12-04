@@ -7,13 +7,13 @@ Estate is a modern, responsive contractor and real estate website built using **
   <table>
     <tr>
       <td><img src="/images/1.png" width="300" alt="Home Page"></td>
-      <td><img src="/public/2.png" width="300" alt="Projects"></td>
-      <td><img src="/public/3.png" width="300" alt="Contact Page"></td>
+      <td><img src="/images/2.png" width="300" alt="Projects"></td>
+      <td><img src="/images/3.png" width="300" alt="Contact Page"></td>
     </tr>
         <tr>
       <td><img src="/images/4.png" width="300" alt="Home Page"></td>
-      <td><img src="/public/5.png" width="300" alt="Projects"></td>
-      <td><img src="/public/6.png" width="300" alt="Contact Page"></td>
+      <td><img src="/images/5.png" width="300" alt="Projects"></td>
+      <td><img src="/images/6.png" width="300" alt="Contact Page"></td>
     </tr>
   </table>
 </div>
