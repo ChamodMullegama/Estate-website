@@ -1,9 +1,14 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="about"
     >
@@ -16,8 +21,8 @@ const About = () => {
       </h1>
 
       {/* SUBTITLE */}
-      <p className="text-gray-500 max-w-80 text-center mb-8">
-        Passionate About Properties, Dedicated to your Vision
+      <p className="text-gray-500 max-w-sm text-center mb-8">
+        Passionate about properties, dedicated to your vision
       </p>
 
       {/* CONTENT */}
@@ -31,7 +36,7 @@ const About = () => {
 
         {/* TEXT SECTION */}
         <div className="flex flex-col items-center md:items-start mt-10 text-gray-600">
-          {/* FIXED GRID */}
+          {/* STATS GRID */}
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
             <div>
               <p className="text-4xl font-medium text-gray-800">10+</p>
@@ -56,7 +61,7 @@ const About = () => {
 
           {/* DESCRIPTION */}
           <p className="my-10 max-w-lg text-center md:text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed amet
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed amet
             accusamus minima quae fugiat pariatur totam ex similique expedita
             explicabo atque deserunt dolor, placeat porro voluptates neque at,
             eligendi voluptatum!
@@ -68,7 +73,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
